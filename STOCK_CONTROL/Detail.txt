@@ -1,0 +1,10 @@
+﻿1. Format QRCode ITS:	"ITSNO#I_ITEM_CD#I_TRADE_ITEM_CD#IPS_CUST_CD" : P
+						"P2014112#LLDPE-0.2650920LH#8981035241#C001"
+						"P201411005#LLDPE-0.2626890RH#8981924541#C001"
+						
+2. INSERT DB		:	IPS_STOCKCONTROL, IPS_STOCKCONTORL_DETAIL
+3. CHECK UNIQUE		:	[I_FAC_CD], [I_ITEM_CD], [I_TRADE_ITEM_CD], [IPS_CUST_CD], [PACKAGING], [PD_FINISH_DATE], [LOT_NO]
+4. STEP WORKING		:	1) KEY INPUT DATA
+					:	2) KEY LOCATION IF(INOUT NOT NULL)
+
+******************************************************************************************************************

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="93326bc2-8135-4cbb-bf6e-25245002d3b8" name="sasivimol.i@IT-G8DWKR1 2014-10-15 15:30:17" runUser="NMT\sasivimol.i" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fe7ac056-5be6-4beb-bf6d-d8f3d807ea53">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\TestResults\sasivimol.i_IT-G8DWKR1 2014-10-15 15_30_17">
+      <DeploymentItem filename="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\STOCK CONTROL\bin\Release\STOCK CONTROL.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-10-15T15:30:17.0018805+07:00" queuing="2014-10-15T15:30:17.1518355+07:00" start="2014-10-15T15:30:17.1658313+07:00" finish="2014-10-15T15:30:17.3797671+07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestSeparateQRCodeIPS" storage="d:\_sasi\_nmth\nmth\02_nmth project\ips project\_code\stock control v1.0.0\stock control\testproject1\bin\release\teststockcontrol.dll" id="90f68d36-b664-16c9-d2da-cee529e27795">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e3a673d9-074c-4fd3-90df-d3a7543e4ced" />
+      <TestMethod codeBase="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\TestProject1\bin\Release\TestStockControl.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestStockControl.TEST_IPSFunction, TestStockControl" name="TestSeparateQRCodeIPS" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="90f68d36-b664-16c9-d2da-cee529e27795" executionId="e3a673d9-074c-4fd3-90df-d3a7543e4ced" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3a673d9-074c-4fd3-90df-d3a7543e4ced" testId="90f68d36-b664-16c9-d2da-cee529e27795" testName="TestSeparateQRCodeIPS" computerName="IT-G8DWKR1" duration="00:00:00.0726886" startTime="2014-10-15T15:30:17.1668310+07:00" endTime="2014-10-15T15:30:17.3647716+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;ITS&gt;. Actual:&lt;SS&gt;. </Message>
+          <StackTrace>   at TestStockControl.TEST_IPSFunction.TestSeparateQRCodeIPS() in D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\TestProject1\TEST_IPSFunction.vb:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

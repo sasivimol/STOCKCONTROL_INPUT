@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="895b7ec4-e64a-427d-939c-c7c9717c0477" name="sasivimol.i@IT-G8DWKR1 2014-10-14 09:41:33" runUser="NMT\sasivimol.i" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="fe7ac056-5be6-4beb-bf6d-d8f3d807ea53">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\TestResults\sasivimol.i_IT-G8DWKR1 2014-10-14 09_41_33">
+      <DeploymentItem filename="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\STOCK CONTROL TEST\bin\Release\STOCK CONTROL TEST.dll" />
+      <DeploymentItem filename="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\STOCK CONTROL\bin\Release\STOCK CONTROL.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2014-10-14T09:41:33.7036380+07:00" queuing="2014-10-14T09:41:33.9316380+07:00" start="2014-10-14T09:41:34.0446380+07:00" finish="2014-10-14T09:41:34.3296380+07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestConnection" storage="d:\_sasi\_nmth\nmth\02_nmth project\ips project\_code\stock control v1.0.0\stock control\stock control test\bin\release\stock control test.dll" id="f7233e83-89a5-7da5-1c62-7d56ac6100fc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b06fcfa0-9d16-4ee1-8d2c-10e423ee37ba" />
+      <TestMethod codeBase="D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\STOCK CONTROL TEST\bin\Release\STOCK CONTROL TEST.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="STOCK_CONTROL_TEST.NMTHFunctionTest, STOCK CONTROL TEST" name="TestConnection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f7233e83-89a5-7da5-1c62-7d56ac6100fc" executionId="b06fcfa0-9d16-4ee1-8d2c-10e423ee37ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b06fcfa0-9d16-4ee1-8d2c-10e423ee37ba" testId="f7233e83-89a5-7da5-1c62-7d56ac6100fc" testName="TestConnection" computerName="IT-G8DWKR1" duration="00:00:00.0360717" startTime="2014-10-14T09:41:34.0866380+07:00" endTime="2014-10-14T09:41:34.2976380+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;IPS&gt;. Actual:&lt;Dsn=IPS;Data Source=//0.152.20.244:5432/StockNMTH;User ID=ball;Password=football;&gt;. </Message>
+          <StackTrace>   at STOCK_CONTROL_TEST.NMTHFunctionTest.TestConnection() in D:\_SASI\_NMTH\NMTH\02_NMTH PROJECT\IPS Project\_Code\STOCK CONTROL V1.0.0\STOCK CONTROL\STOCK CONTROL TEST\NMTHFunctionTest.vb:line 48
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
